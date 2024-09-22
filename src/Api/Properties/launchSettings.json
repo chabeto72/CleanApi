@@ -1,0 +1,44 @@
+{
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "local",
+        "clientId": "f7b26a98-2970-4834-8a29-8ed2f7b34c89",
+        "tenantId": "c4b1a243-1d59-420b-90b9-a295bbbc8e7a",
+        "clientSecret": "ROq8Q~ZK5xSdDk.FARNwi_bHgbY7sNBSRT3h_cHd"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:5131"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "local",
+        "clientId": "f7b26a98-2970-4834-8a29-8ed2f7b34c89",
+        "tenantId": "c4b1a243-1d59-420b-90b9-a295bbbc8e7a",
+        "clientSecret": "ROq8Q~ZK5xSdDk.FARNwi_bHgbY7sNBSRT3h_cHd"
+      }
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "environmentVariables": {
+        "ASPNETCORE_HTTP_PORTS": "8080"
+      },
+      "publishAllPorts": true
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:5131",
+      "sslPort": 0
+    }
+  }
+}

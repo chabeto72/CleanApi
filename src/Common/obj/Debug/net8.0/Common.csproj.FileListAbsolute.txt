@@ -1,0 +1,12 @@
+D:\Net\Arquitecturas\BaseCleanV3\src\Common\bin\Debug\net8.0\Common.deps.json
+D:\Net\Arquitecturas\BaseCleanV3\src\Common\bin\Debug\net8.0\Common.dll
+D:\Net\Arquitecturas\BaseCleanV3\src\Common\bin\Debug\net8.0\Common.pdb
+D:\Net\Arquitecturas\BaseCleanV3\src\Common\obj\Debug\net8.0\Common.csproj.AssemblyReference.cache
+D:\Net\Arquitecturas\BaseCleanV3\src\Common\obj\Debug\net8.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Net\Arquitecturas\BaseCleanV3\src\Common\obj\Debug\net8.0\Common.AssemblyInfoInputs.cache
+D:\Net\Arquitecturas\BaseCleanV3\src\Common\obj\Debug\net8.0\Common.AssemblyInfo.cs
+D:\Net\Arquitecturas\BaseCleanV3\src\Common\obj\Debug\net8.0\Common.csproj.CoreCompileInputs.cache
+D:\Net\Arquitecturas\BaseCleanV3\src\Common\obj\Debug\net8.0\Common.dll
+D:\Net\Arquitecturas\BaseCleanV3\src\Common\obj\Debug\net8.0\refint\Common.dll
+D:\Net\Arquitecturas\BaseCleanV3\src\Common\obj\Debug\net8.0\Common.pdb
+D:\Net\Arquitecturas\BaseCleanV3\src\Common\obj\Debug\net8.0\ref\Common.dll

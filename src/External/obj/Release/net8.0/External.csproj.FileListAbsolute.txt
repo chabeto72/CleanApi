@@ -1,0 +1,17 @@
+D:\Net\Arquitecturas\BaseCleanV3\src\External\bin\Release\net8.0\External.deps.json
+D:\Net\Arquitecturas\BaseCleanV3\src\External\bin\Release\net8.0\External.dll
+D:\Net\Arquitecturas\BaseCleanV3\src\External\bin\Release\net8.0\External.pdb
+D:\Net\Arquitecturas\BaseCleanV3\src\External\bin\Release\net8.0\Application.dll
+D:\Net\Arquitecturas\BaseCleanV3\src\External\bin\Release\net8.0\Domain.dll
+D:\Net\Arquitecturas\BaseCleanV3\src\External\bin\Release\net8.0\Application.pdb
+D:\Net\Arquitecturas\BaseCleanV3\src\External\bin\Release\net8.0\Domain.pdb
+D:\Net\Arquitecturas\BaseCleanV3\src\External\obj\Release\net8.0\External.csproj.AssemblyReference.cache
+D:\Net\Arquitecturas\BaseCleanV3\src\External\obj\Release\net8.0\External.GeneratedMSBuildEditorConfig.editorconfig
+D:\Net\Arquitecturas\BaseCleanV3\src\External\obj\Release\net8.0\External.AssemblyInfoInputs.cache
+D:\Net\Arquitecturas\BaseCleanV3\src\External\obj\Release\net8.0\External.AssemblyInfo.cs
+D:\Net\Arquitecturas\BaseCleanV3\src\External\obj\Release\net8.0\External.csproj.CoreCompileInputs.cache
+D:\Net\Arquitecturas\BaseCleanV3\src\External\obj\Release\net8.0\External.csproj.Up2Date
+D:\Net\Arquitecturas\BaseCleanV3\src\External\obj\Release\net8.0\External.dll
+D:\Net\Arquitecturas\BaseCleanV3\src\External\obj\Release\net8.0\refint\External.dll
+D:\Net\Arquitecturas\BaseCleanV3\src\External\obj\Release\net8.0\External.pdb
+D:\Net\Arquitecturas\BaseCleanV3\src\External\obj\Release\net8.0\ref\External.dll

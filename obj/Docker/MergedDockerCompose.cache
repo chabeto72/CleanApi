@@ -1,0 +1,19 @@
+name: dockercompose6323138007920879530
+services:
+  api:
+    build:
+      context: D:\Net\Arquitecturas\BaseCleanV3
+      dockerfile: src/Api/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+    image: api
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+networks:
+  default:
+    name: dockercompose6323138007920879530_default
