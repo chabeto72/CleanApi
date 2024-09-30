@@ -6,6 +6,7 @@ using Application.Database.User.Querys.GetAllTask;
 using Application.Database.User.Querys.GetAllUser;
 using Application.Database.User.Querys.GetUserByCodeDocumentNumber;
 using Application.Database.User.Querys.GetUserById;
+using Application.Validators.task;
 using Application.Validators.User;
 using AutoMapper;
 using FluentValidation;
@@ -32,9 +33,9 @@ namespace Application
 
             #region task
             //inyeccion de dependencias Commands           
-            services.AddTransient<ICreateUserCommand, CreateUserCommand>();
-            services.AddTransient<IUpdateUserCommand, UpdateUserCommand>();
-            services.AddTransient<IDeleteUserCommand, DeleteUserCommand>();
+            services.AddTransient<ICreateTaskCommand, CreateTaskCommand>();
+            services.AddTransient<IUpdateTaskCommand, UpdateTaskCommand>();
+            //services.AddTransient<IDeleteUserCommand, DeleteUserCommand>();
             //inyeccion de dependencias Querys
             services.AddTransient<IGetAllTaskQuery, GetAllTaskQuery>();
             //services.AddTransient<IGetUserByIdQuery, GetUserByIdQuery>();
@@ -46,6 +47,8 @@ namespace Application
             services.AddScoped<IValidator<UpdateUserModel>, UpdateUserValidator>();
             services.AddScoped<IValidator<int>, GetByIdUserValidator>();
             services.AddScoped<IValidator<(string, string)>, GetUserByCodeDocumentNumberValidator>();
+            services.AddScoped<IValidator<CreateTaskModel>, CreateTaskValidator>();
+            services.AddScoped<IValidator<UpdateTaskModel>, UpdateTaskValidator>();
             #endregion
 
 

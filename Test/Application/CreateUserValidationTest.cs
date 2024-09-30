@@ -27,7 +27,7 @@ namespace Test.Application
         {
             //Arrange: Configuramos parametros de entrada de prueba unitaria
             //UserEntity user = new UserEntity() { FirtsName = null, LastName = "Bejarano", Code = "ADS", NumberDocument = null, Password = "" };
-            CreateUserModel createUserCommand = new CreateUserModel() { FirtsName = null, LastName = "Bejarano", Code = "ADS", NumberDocument = null, Password = "" };
+            CreateUserModel createUserCommand = new CreateUserModel() { Nombre = null,  Correo = "ADS", Documento = null, Password = "" };
             //_mapper.Setup(m => m.Map<UserEntity>(It.IsAny<CreateUserModel>())).Returns(user); // mapping data
             //var mockSet = new Mock<DbSet<UserEntity>>();
             //_dataBaseService.Setup(m => m.User).Returns(mockSet.Object);
