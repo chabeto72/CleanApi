@@ -35,7 +35,7 @@ namespace Application
             //inyeccion de dependencias Commands           
             services.AddTransient<ICreateTaskCommand, CreateTaskCommand>();
             services.AddTransient<IUpdateTaskCommand, UpdateTaskCommand>();
-            //services.AddTransient<IDeleteUserCommand, DeleteUserCommand>();
+            services.AddTransient<IDeleteTaskCommand, DeleteTaskCommand>();
             //inyeccion de dependencias Querys
             services.AddTransient<IGetAllTaskQuery, GetAllTaskQuery>();
             //services.AddTransient<IGetUserByIdQuery, GetUserByIdQuery>();

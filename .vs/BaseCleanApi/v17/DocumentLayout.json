@@ -11,10 +11,6 @@
       "RelativeMoniker": "D:0:0:{829E01B8-BA1D-49CC-93A5-3A56DC77A90D}|src\\Api\\Api.csproj|solutionrelative:src\\api\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{829E01B8-BA1D-49CC-93A5-3A56DC77A90D}|src\\Api\\Api.csproj|c:\\users\\ariel\\source\\repos\\chabeto72\\cleanapi\\src\\api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{829E01B8-BA1D-49CC-93A5-3A56DC77A90D}|src\\Api\\Api.csproj|solutionrelative:src\\api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{063E2FAF-55A1-4F3F-942F-3A7BF5B4ACA2}|src\\Application\\Application.csproj|c:\\users\\ariel\\source\\repos\\chabeto72\\cleanapi\\src\\application\\database\\user\\commands\\createuser\\createtaskcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{063E2FAF-55A1-4F3F-942F-3A7BF5B4ACA2}|src\\Application\\Application.csproj|solutionrelative:src\\application\\database\\user\\commands\\createuser\\createtaskcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,24 +19,36 @@
       "RelativeMoniker": "D:0:0:{063E2FAF-55A1-4F3F-942F-3A7BF5B4ACA2}|src\\Application\\Application.csproj|solutionrelative:src\\application\\database\\user\\querys\\getalluser\\getalluserquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{063E2FAF-55A1-4F3F-942F-3A7BF5B4ACA2}|src\\Application\\Application.csproj|c:\\users\\ariel\\source\\repos\\chabeto72\\cleanapi\\src\\application\\validators\\task\\createtaskvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{063E2FAF-55A1-4F3F-942F-3A7BF5B4ACA2}|src\\Application\\Application.csproj|solutionrelative:src\\application\\validators\\task\\createtaskvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{063E2FAF-55A1-4F3F-942F-3A7BF5B4ACA2}|src\\Application\\Application.csproj|c:\\users\\ariel\\source\\repos\\chabeto72\\cleanapi\\src\\application\\database\\user\\commands\\createuser\\createtaskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{063E2FAF-55A1-4F3F-942F-3A7BF5B4ACA2}|src\\Application\\Application.csproj|solutionrelative:src\\application\\database\\user\\commands\\createuser\\createtaskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{063E2FAF-55A1-4F3F-942F-3A7BF5B4ACA2}|src\\Application\\Application.csproj|c:\\users\\ariel\\source\\repos\\chabeto72\\cleanapi\\src\\application\\database\\user\\querys\\getuserbycodedocumentnumber\\getuserbycodedocumentnumberquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{063E2FAF-55A1-4F3F-942F-3A7BF5B4ACA2}|src\\Application\\Application.csproj|solutionrelative:src\\application\\database\\user\\querys\\getuserbycodedocumentnumber\\getuserbycodedocumentnumberquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{829E01B8-BA1D-49CC-93A5-3A56DC77A90D}|src\\Api\\Api.csproj|c:\\users\\ariel\\source\\repos\\chabeto72\\cleanapi\\src\\api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{829E01B8-BA1D-49CC-93A5-3A56DC77A90D}|src\\Api\\Api.csproj|solutionrelative:src\\api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{063E2FAF-55A1-4F3F-942F-3A7BF5B4ACA2}|src\\Application\\Application.csproj|c:\\users\\ariel\\source\\repos\\chabeto72\\cleanapi\\src\\application\\dependencyinjectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{063E2FAF-55A1-4F3F-942F-3A7BF5B4ACA2}|src\\Application\\Application.csproj|solutionrelative:src\\application\\dependencyinjectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{063E2FAF-55A1-4F3F-942F-3A7BF5B4ACA2}|src\\Application\\Application.csproj|c:\\users\\ariel\\source\\repos\\chabeto72\\cleanapi\\src\\application\\excepctions\\exceptionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{063E2FAF-55A1-4F3F-942F-3A7BF5B4ACA2}|src\\Application\\Application.csproj|solutionrelative:src\\application\\excepctions\\exceptionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{063E2FAF-55A1-4F3F-942F-3A7BF5B4ACA2}|src\\Application\\Application.csproj|c:\\users\\ariel\\source\\repos\\chabeto72\\cleanapi\\src\\application\\validators\\task\\deletetaskvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{063E2FAF-55A1-4F3F-942F-3A7BF5B4ACA2}|src\\Application\\Application.csproj|solutionrelative:src\\application\\validators\\task\\deletetaskvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{063E2FAF-55A1-4F3F-942F-3A7BF5B4ACA2}|src\\Application\\Application.csproj|c:\\users\\ariel\\source\\repos\\chabeto72\\cleanapi\\src\\application\\validators\\task\\createtaskvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{063E2FAF-55A1-4F3F-942F-3A7BF5B4ACA2}|src\\Application\\Application.csproj|solutionrelative:src\\application\\validators\\task\\createtaskvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{063E2FAF-55A1-4F3F-942F-3A7BF5B4ACA2}|src\\Application\\Application.csproj|c:\\users\\ariel\\source\\repos\\chabeto72\\cleanapi\\src\\application\\database\\user\\commands\\deleteuser\\deletetaskcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{063E2FAF-55A1-4F3F-942F-3A7BF5B4ACA2}|src\\Application\\Application.csproj|solutionrelative:src\\application\\database\\user\\commands\\deleteuser\\deletetaskcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{063E2FAF-55A1-4F3F-942F-3A7BF5B4ACA2}|src\\Application\\Application.csproj|c:\\users\\ariel\\source\\repos\\chabeto72\\cleanapi\\src\\application\\database\\user\\querys\\getuserbycodedocumentnumber\\getuserbycodedocumentnumberquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{063E2FAF-55A1-4F3F-942F-3A7BF5B4ACA2}|src\\Application\\Application.csproj|solutionrelative:src\\application\\database\\user\\querys\\getuserbycodedocumentnumber\\getuserbycodedocumentnumberquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{063E2FAF-55A1-4F3F-942F-3A7BF5B4ACA2}|src\\Application\\Application.csproj|c:\\users\\ariel\\source\\repos\\chabeto72\\cleanapi\\src\\application\\database\\user\\commands\\createuser\\createtaskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{063E2FAF-55A1-4F3F-942F-3A7BF5B4ACA2}|src\\Application\\Application.csproj|solutionrelative:src\\application\\database\\user\\commands\\createuser\\createtaskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{063E2FAF-55A1-4F3F-942F-3A7BF5B4ACA2}|src\\Application\\Application.csproj|c:\\users\\ariel\\source\\repos\\chabeto72\\cleanapi\\src\\application\\validators\\task\\updatetaskvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{063E2FAF-55A1-4F3F-942F-3A7BF5B4ACA2}|src\\Application\\Application.csproj|c:\\users\\ariel\\source\\repos\\chabeto72\\cleanapi\\src\\application\\validators\\user\\getuserbycodedocumentnumbervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{063E2FAF-55A1-4F3F-942F-3A7BF5B4ACA2}|src\\Application\\Application.csproj|solutionrelative:src\\application\\validators\\user\\getuserbycodedocumentnumbervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{063E2FAF-55A1-4F3F-942F-3A7BF5B4ACA2}|src\\Application\\Application.csproj|c:\\users\\ariel\\source\\repos\\chabeto72\\cleanapi\\src\\application\\database\\user\\commands\\deleteuser\\deletetaskcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{063E2FAF-55A1-4F3F-942F-3A7BF5B4ACA2}|src\\Application\\Application.csproj|solutionrelative:src\\application\\database\\user\\commands\\deleteuser\\deletetaskcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{063E2FAF-55A1-4F3F-942F-3A7BF5B4ACA2}|src\\Application\\Application.csproj|c:\\users\\ariel\\source\\repos\\chabeto72\\cleanapi\\src\\application\\database\\user\\commands\\deleteuser\\ideletetaskcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -109,10 +113,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{01DEBF2A-8793-420C-BC1A-224E089F569C}|Test\\Test.csproj|c:\\users\\ariel\\source\\repos\\chabeto72\\cleanapi\\test\\application\\createuservalidationtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01DEBF2A-8793-420C-BC1A-224E089F569C}|Test\\Test.csproj|solutionrelative:test\\application\\createuservalidationtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{063E2FAF-55A1-4F3F-942F-3A7BF5B4ACA2}|src\\Application\\Application.csproj|c:\\users\\ariel\\source\\repos\\chabeto72\\cleanapi\\src\\application\\excepctions\\exceptionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{063E2FAF-55A1-4F3F-942F-3A7BF5B4ACA2}|src\\Application\\Application.csproj|solutionrelative:src\\application\\excepctions\\exceptionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -154,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "CreateTaskValidator.cs",
               "DocumentMoniker": "C:\\Users\\Ariel\\source\\repos\\chabeto72\\CleanApi\\src\\Application\\Validators\\task\\CreateTaskValidator.cs",
               "RelativeDocumentMoniker": "src\\Application\\Validators\\task\\CreateTaskValidator.cs",
@@ -167,20 +167,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "DeleteTaskValidator.cs",
               "DocumentMoniker": "C:\\Users\\Ariel\\source\\repos\\chabeto72\\CleanApi\\src\\Application\\Validators\\task\\DeleteTaskValidator.cs",
               "RelativeDocumentMoniker": "src\\Application\\Validators\\task\\DeleteTaskValidator.cs",
               "ToolTip": "C:\\Users\\Ariel\\source\\repos\\chabeto72\\CleanApi\\src\\Application\\Validators\\task\\DeleteTaskValidator.cs",
               "RelativeToolTip": "src\\Application\\Validators\\task\\DeleteTaskValidator.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAqwBUAAAAJAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAqwA0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-30T21:31:43.538Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "GetByIdUserValidator.cs",
               "DocumentMoniker": "C:\\Users\\Ariel\\source\\repos\\chabeto72\\CleanApi\\src\\Application\\Validators\\User\\GetByIdUserValidator.cs",
               "RelativeDocumentMoniker": "src\\Application\\Validators\\User\\GetByIdUserValidator.cs",
@@ -188,12 +188,11 @@
               "RelativeToolTip": "src\\Application\\Validators\\User\\GetByIdUserValidator.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T21:29:11.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T21:29:11.147Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "GetUserByCodeDocumentNumberValidator.cs",
               "DocumentMoniker": "C:\\Users\\Ariel\\source\\repos\\chabeto72\\CleanApi\\src\\Application\\Validators\\User\\GetUserByCodeDocumentNumberValidator.cs",
               "RelativeDocumentMoniker": "src\\Application\\Validators\\User\\GetUserByCodeDocumentNumberValidator.cs",
@@ -201,12 +200,11 @@
               "RelativeToolTip": "src\\Application\\Validators\\User\\GetUserByCodeDocumentNumberValidator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T21:29:07.694Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T21:29:07.694Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "DeleteUserCommand.cs",
               "DocumentMoniker": "C:\\Users\\Ariel\\source\\repos\\chabeto72\\CleanApi\\src\\Application\\Database\\User\\Commands\\DeleteUser\\DeleteUserCommand.cs",
               "RelativeDocumentMoniker": "src\\Application\\Database\\User\\Commands\\DeleteUser\\DeleteUserCommand.cs",
@@ -214,12 +212,11 @@
               "RelativeToolTip": "src\\Application\\Database\\User\\Commands\\DeleteUser\\DeleteUserCommand.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T21:23:09.638Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T21:23:09.638Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "IDeleteTaskCommand.cs",
               "DocumentMoniker": "C:\\Users\\Ariel\\source\\repos\\chabeto72\\CleanApi\\src\\Application\\Database\\User\\Commands\\DeleteUser\\IDeleteTaskCommand.cs",
               "RelativeDocumentMoniker": "src\\Application\\Database\\User\\Commands\\DeleteUser\\IDeleteTaskCommand.cs",
@@ -227,25 +224,24 @@
               "RelativeToolTip": "src\\Application\\Database\\User\\Commands\\DeleteUser\\IDeleteTaskCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T21:23:02.892Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T21:23:02.892Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 9,
               "Title": "DeleteTaskCommand.cs",
               "DocumentMoniker": "C:\\Users\\Ariel\\source\\repos\\chabeto72\\CleanApi\\src\\Application\\Database\\User\\Commands\\DeleteUser\\DeleteTaskCommand.cs",
               "RelativeDocumentMoniker": "src\\Application\\Database\\User\\Commands\\DeleteUser\\DeleteTaskCommand.cs",
               "ToolTip": "C:\\Users\\Ariel\\source\\repos\\chabeto72\\CleanApi\\src\\Application\\Database\\User\\Commands\\DeleteUser\\DeleteTaskCommand.cs",
               "RelativeToolTip": "src\\Application\\Database\\User\\Commands\\DeleteUser\\DeleteTaskCommand.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAUwAoAAAAiAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAwwBIAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-30T21:22:43.825Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "UpdateUserValidator.cs",
               "DocumentMoniker": "C:\\Users\\Ariel\\source\\repos\\chabeto72\\CleanApi\\src\\Application\\Validators\\User\\UpdateUserValidator.cs",
               "RelativeDocumentMoniker": "src\\Application\\Validators\\User\\UpdateUserValidator.cs",
@@ -257,7 +253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "UpdateTaskValidator.cs",
               "DocumentMoniker": "C:\\Users\\Ariel\\source\\repos\\chabeto72\\CleanApi\\src\\Application\\Validators\\task\\UpdateTaskValidator.cs",
               "RelativeDocumentMoniker": "src\\Application\\Validators\\task\\UpdateTaskValidator.cs",
@@ -265,25 +261,24 @@
               "RelativeToolTip": "src\\Application\\Validators\\task\\UpdateTaskValidator.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAAwAsAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T21:02:05.9Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T21:02:05.9Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "DependencyInjectionService.cs",
               "DocumentMoniker": "C:\\Users\\Ariel\\source\\repos\\chabeto72\\CleanApi\\src\\Application\\DependencyInjectionService.cs",
               "RelativeDocumentMoniker": "src\\Application\\DependencyInjectionService.cs",
               "ToolTip": "C:\\Users\\Ariel\\source\\repos\\chabeto72\\CleanApi\\src\\Application\\DependencyInjectionService.cs",
               "RelativeToolTip": "src\\Application\\DependencyInjectionService.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAqwDMAAABEAAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAAAewCYAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-30T21:00:27.747Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "IDataBaseService.cs",
               "DocumentMoniker": "C:\\Users\\Ariel\\source\\repos\\chabeto72\\CleanApi\\src\\Application\\Database\\IDataBaseService.cs",
               "RelativeDocumentMoniker": "src\\Application\\Database\\IDataBaseService.cs",
@@ -295,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "DependencyInjectionService.cs",
               "DocumentMoniker": "C:\\Users\\Ariel\\source\\repos\\chabeto72\\CleanApi\\src\\Api\\DependencyInjectionService.cs",
               "RelativeDocumentMoniker": "src\\Api\\DependencyInjectionService.cs",
@@ -307,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "CreateTaskModel.cs",
               "DocumentMoniker": "C:\\Users\\Ariel\\source\\repos\\chabeto72\\CleanApi\\src\\Application\\Database\\User\\Commands\\CreateUser\\CreateTaskModel.cs",
               "RelativeDocumentMoniker": "src\\Application\\Database\\User\\Commands\\CreateUser\\CreateTaskModel.cs",
@@ -315,12 +310,11 @@
               "RelativeToolTip": "src\\Application\\Database\\User\\Commands\\CreateUser\\CreateTaskModel.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAwwAoAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T20:53:44.3Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T20:53:44.3Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "UpdateUserModel.cs",
               "DocumentMoniker": "C:\\Users\\Ariel\\source\\repos\\chabeto72\\CleanApi\\src\\Application\\Database\\User\\Commands\\UpdateUser\\UpdateUserModel.cs",
               "RelativeDocumentMoniker": "src\\Application\\Database\\User\\Commands\\UpdateUser\\UpdateUserModel.cs",
@@ -332,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "UpdateTaskModel.cs",
               "DocumentMoniker": "C:\\Users\\Ariel\\source\\repos\\chabeto72\\CleanApi\\src\\Application\\Database\\User\\Commands\\UpdateUser\\UpdateTaskModel.cs",
               "RelativeDocumentMoniker": "src\\Application\\Database\\User\\Commands\\UpdateUser\\UpdateTaskModel.cs",
@@ -344,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "IUpdateTaskCommand.cs",
               "DocumentMoniker": "C:\\Users\\Ariel\\source\\repos\\chabeto72\\CleanApi\\src\\Application\\Database\\User\\Commands\\UpdateUser\\IUpdateTaskCommand.cs",
               "RelativeDocumentMoniker": "src\\Application\\Database\\User\\Commands\\UpdateUser\\IUpdateTaskCommand.cs",
@@ -356,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "UpdateTaskCommand.cs",
               "DocumentMoniker": "C:\\Users\\Ariel\\source\\repos\\chabeto72\\CleanApi\\src\\Application\\Database\\User\\Commands\\UpdateUser\\UpdateTaskCommand.cs",
               "RelativeDocumentMoniker": "src\\Application\\Database\\User\\Commands\\UpdateUser\\UpdateTaskCommand.cs",
@@ -369,20 +363,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Ariel\\source\\repos\\chabeto72\\CleanApi\\src\\Api\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "src\\Api\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\Ariel\\source\\repos\\chabeto72\\CleanApi\\src\\Api\\Controllers\\UserController.cs",
               "RelativeToolTip": "src\\Api\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAADwv1QAAAAMAAAA",
+              "ViewState": "AQIAAEcAAAAAAAAAAADwv1MAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-30T20:33:25.768Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "GetUserByCodeDocumentNumberQuery.cs",
               "DocumentMoniker": "C:\\Users\\Ariel\\source\\repos\\chabeto72\\CleanApi\\src\\Application\\Database\\User\\Querys\\GetUserByCodeDocumentNumber\\GetUserByCodeDocumentNumberQuery.cs",
               "RelativeDocumentMoniker": "src\\Application\\Database\\User\\Querys\\GetUserByCodeDocumentNumber\\GetUserByCodeDocumentNumberQuery.cs",
@@ -395,20 +389,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "GetAllUserQuery.cs",
               "DocumentMoniker": "C:\\Users\\Ariel\\source\\repos\\chabeto72\\CleanApi\\src\\Application\\Database\\User\\Querys\\GetAllUser\\GetAllUserQuery.cs",
               "RelativeDocumentMoniker": "src\\Application\\Database\\User\\Querys\\GetAllUser\\GetAllUserQuery.cs",
               "ToolTip": "C:\\Users\\Ariel\\source\\repos\\chabeto72\\CleanApi\\src\\Application\\Database\\User\\Querys\\GetAllUser\\GetAllUserQuery.cs",
               "RelativeToolTip": "src\\Application\\Database\\User\\Querys\\GetAllUser\\GetAllUserQuery.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAmwBsAAAAIAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAIwBsAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-30T20:33:25.796Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "UpdateUserCommand.cs",
               "DocumentMoniker": "C:\\Users\\Ariel\\source\\repos\\chabeto72\\CleanApi\\src\\Application\\Database\\User\\Commands\\UpdateUser\\UpdateUserCommand.cs",
               "RelativeDocumentMoniker": "src\\Application\\Database\\User\\Commands\\UpdateUser\\UpdateUserCommand.cs",
@@ -421,7 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "CreateUserValidationTest.cs",
               "DocumentMoniker": "C:\\Users\\Ariel\\source\\repos\\chabeto72\\CleanApi\\Test\\Application\\CreateUserValidationTest.cs",
               "RelativeDocumentMoniker": "Test\\Application\\CreateUserValidationTest.cs",
@@ -439,7 +433,7 @@
               "RelativeDocumentMoniker": "src\\Api\\Controllers\\TaskController.cs",
               "ToolTip": "C:\\Users\\Ariel\\source\\repos\\chabeto72\\CleanApi\\src\\Api\\Controllers\\TaskController.cs",
               "RelativeToolTip": "src\\Api\\Controllers\\TaskController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAmwCwAAAAMAAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAADwvywAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-30T20:33:25.841Z",
               "EditorCaption": ""
@@ -452,27 +446,27 @@
               "RelativeDocumentMoniker": "src\\Application\\Database\\User\\Querys\\GetAllTask\\GetAllTaskQuery.cs",
               "ToolTip": "C:\\Users\\Ariel\\source\\repos\\chabeto72\\CleanApi\\src\\Application\\Database\\User\\Querys\\GetAllTask\\GetAllTaskQuery.cs",
               "RelativeToolTip": "src\\Application\\Database\\User\\Querys\\GetAllTask\\GetAllTaskQuery.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAA8wBgAAAAMAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAmwBgAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-30T20:33:25.853Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "CreateTaskCommand.cs",
               "DocumentMoniker": "C:\\Users\\Ariel\\source\\repos\\chabeto72\\CleanApi\\src\\Application\\Database\\User\\Commands\\CreateUser\\CreateTaskCommand.cs",
               "RelativeDocumentMoniker": "src\\Application\\Database\\User\\Commands\\CreateUser\\CreateTaskCommand.cs",
               "ToolTip": "C:\\Users\\Ariel\\source\\repos\\chabeto72\\CleanApi\\src\\Application\\Database\\User\\Commands\\CreateUser\\CreateTaskCommand.cs",
               "RelativeToolTip": "src\\Application\\Database\\User\\Commands\\CreateUser\\CreateTaskCommand.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAIwCIAAAAMAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAIwBYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-30T20:33:25.864Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "GetAllTaskModel.cs",
               "DocumentMoniker": "C:\\Users\\Ariel\\source\\repos\\chabeto72\\CleanApi\\src\\Application\\Database\\User\\Querys\\GetAllTask\\GetAllTaskModel.cs",
               "RelativeDocumentMoniker": "src\\Application\\Database\\User\\Querys\\GetAllTask\\GetAllTaskModel.cs",
@@ -484,7 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "MapperProfile.cs",
               "DocumentMoniker": "C:\\Users\\Ariel\\source\\repos\\chabeto72\\CleanApi\\src\\Application\\Configuration\\MapperProfile.cs",
               "RelativeDocumentMoniker": "src\\Application\\Configuration\\MapperProfile.cs",
@@ -496,13 +490,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 6,
               "Title": "ExceptionManager.cs",
               "DocumentMoniker": "C:\\Users\\Ariel\\source\\repos\\chabeto72\\CleanApi\\src\\Application\\Excepctions\\ExceptionManager.cs",
               "RelativeDocumentMoniker": "src\\Application\\Excepctions\\ExceptionManager.cs",
               "ToolTip": "C:\\Users\\Ariel\\source\\repos\\chabeto72\\CleanApi\\src\\Application\\Excepctions\\ExceptionManager.cs",
               "RelativeToolTip": "src\\Application\\Excepctions\\ExceptionManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-30T08:30:32.166Z",
               "EditorCaption": ""
