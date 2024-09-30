@@ -2,6 +2,7 @@
 using Application.Database.User.Commands.CreateUser;
 using Application.Database.User.Commands.DeleteUser;
 using Application.Database.User.Commands.UpdateUser;
+using Application.Database.User.Querys.GetAllTask;
 using Application.Database.User.Querys.GetAllUser;
 using Application.Database.User.Querys.GetUserByCodeDocumentNumber;
 using Application.Database.User.Querys.GetUserById;
@@ -27,6 +28,17 @@ namespace Application
             services.AddTransient<IGetAllUserQuery, GetAllUserQuery>();
             services.AddTransient<IGetUserByIdQuery, GetUserByIdQuery>();
             services.AddTransient<IGetUserByCodeDocumentNumberQuery, GetUserByCodeDocumentNumberQuery>();
+            #endregion
+
+            #region task
+            //inyeccion de dependencias Commands           
+            services.AddTransient<ICreateUserCommand, CreateUserCommand>();
+            services.AddTransient<IUpdateUserCommand, UpdateUserCommand>();
+            services.AddTransient<IDeleteUserCommand, DeleteUserCommand>();
+            //inyeccion de dependencias Querys
+            services.AddTransient<IGetAllTaskQuery, GetAllTaskQuery>();
+            //services.AddTransient<IGetUserByIdQuery, GetUserByIdQuery>();
+            //services.AddTransient<IGetUserByCodeDocumentNumberQuery, GetUserByCodeDocumentNumberQuery>();
             #endregion
 
             #region Validator

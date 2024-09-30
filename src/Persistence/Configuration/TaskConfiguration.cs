@@ -1,5 +1,5 @@
-﻿using Domain.Entities.Task;
-using Domain.Entities.User;
+﻿using Domain.Entities.TaskEntity;
+using Domain.Entities.UserEntity;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;
@@ -19,7 +19,7 @@ namespace Persistence.Configuration
             entityTypeBuilder.Property(x => x.DateTask);
             entityTypeBuilder.Property(x => x.Detail);            
             
-            entityTypeBuilder.HasOne(x => x.User).WithMany(x => x.Tasks).HasForeignKey(x => x.UserTask);
+            //entityTypeBuilder.HasOne(x => x.User).WithMany(x => x.Tasks).HasForeignKey(x => x.UserTask);
         }
     }
 }

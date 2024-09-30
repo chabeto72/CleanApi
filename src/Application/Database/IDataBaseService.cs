@@ -1,6 +1,7 @@
-﻿using Domain.Entities.Rol;
-using Domain.Entities.Task;
-using Domain.Entities.User;
+﻿//using Domain.Entities.Rol;
+//using Domain.Entities.Task;
+//using Domain.Entities.User;
+using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -12,9 +13,9 @@ namespace Application.DataBase
 {
     public interface IDataBaseService
     {
-        DbSet<UserEntity> User { get; set; }
-        DbSet<TaskEntity> Task { get; set; }
-        DbSet<RolEntity> Rol { get; set; }
+        DbSet<User> User { get; set; }
+        DbSet<TaskUser> TaskUser { get; set; }
+        DbSet<Rol> Rol { get; set; }
         Task<bool> SaveAsync();
     }
 }

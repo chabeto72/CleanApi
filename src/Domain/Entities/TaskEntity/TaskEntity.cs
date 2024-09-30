@@ -1,11 +1,11 @@
-﻿using Domain.Entities.User;
+﻿using Domain.Entities.UserEntity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain.Entities.Task
+namespace Domain.Entities.TaskEntity
 {
     public class TaskEntity
     {
@@ -16,6 +16,6 @@ namespace Domain.Entities.Task
         public DateTime? DateTask { get; set; }
         public string? Detail { get; set; }
         public int? UserTask { get; set; }
-        public UserEntity  User { get; set; }
+        //public UserEntity  User { get; set; }
     }
 }

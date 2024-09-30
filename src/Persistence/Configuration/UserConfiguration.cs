@@ -1,4 +1,4 @@
-﻿using Domain.Entities.User;
+﻿using Domain.Entities.UserEntity;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;
@@ -21,8 +21,8 @@ namespace Persistence.Configuration
             entityTypeBuilder.Property(x => x.Active);
             entityTypeBuilder.Property(x => x.Address);
 
-            entityTypeBuilder.HasMany(x => x.Tasks).WithOne(x => x.User).HasForeignKey(x => x.UserTask);
-            entityTypeBuilder.HasOne(x => x.Rol).WithMany(x => x.Users).HasForeignKey(x => x.RolUser).HasPrincipalKey(x => x.RolID);
+            //entityTypeBuilder.HasMany(x => x.Tasks).WithOne(x => x.User).HasForeignKey(x => x.UserTask);
+            //entityTypeBuilder.HasOne(x => x.Rol).WithMany(x => x.Users).HasForeignKey(x => x.RolUser).HasPrincipalKey(x => x.RolID);
         }
     }
 }

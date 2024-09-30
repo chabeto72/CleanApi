@@ -24,6 +24,7 @@ namespace Application.Database.User.Querys.GetUserByCodeDocumentNumber
         {
             var entity = await _dataBaseService.User.FirstOrDefaultAsync(x => x.Password == password && x.NumberDocument == documentNumber);
             return _mapper.Map<GetUserByCodeDocumentNumberModel>(entity);
+            
         }
     }
 }

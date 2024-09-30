@@ -1,7 +1,7 @@
 ﻿using Application.Database.User.Commands.CreateUser;
 using Application.DataBase;
 using AutoMapper;
-using Domain.Entities.User;
+using Domain.Entities;
 using Microsoft.EntityFrameworkCore.Metadata;
 using System;
 using System.Collections.Generic;
@@ -22,19 +22,19 @@ namespace Application.Database.User.Commands.UpdateUser
             _dataBaseService = dataBaseService;
         }
 
-        public async Task<UpdateUserModel> Execute (UpdateUserModel model)
+        public async Task<UpdateUserModel> Execute(UpdateUserModel model)
         {
-            //var entity = _mapper.Map<UserEntity>(model);
-            UserEntity? userEntity = _dataBaseService.User.Where(x => x.UserId == model.Id).FirstOrDefault();
-            userEntity.FirtsName = model.Nombre;
-            userEntity.Address = model.Direccion;
-            userEntity.UserId = model.Id;
-            userEntity.Email = model.Correo;
-            userEntity.NumberDocument = model.Documento;
+            //var entity = _mapper.Map<Domain.Entities.User>(model);
+            var existUserEntity = _dataBaseService.User.Where(x => x.UserID == model.Id).FirstOrDefault();
+            existUserEntity.FirtsName = model.Nombre;
+            existUserEntity.Address = model.Direccion;
+            existUserEntity.UserID = model.Id;
+            existUserEntity.Email = model.Correo;
+            existUserEntity.NumberDocument = model.Documento;
 
             var rolId = _dataBaseService.Rol.Where(x => x.Code == model.codigo_rol).Select(x => x.RolID).FirstOrDefault();
-            userEntity.RolUser = rolId;
-            _dataBaseService.User.Update(userEntity);
+            existUserEntity.RolUser = rolId;
+            _dataBaseService.User.Update(existUserEntity);
             await _dataBaseService.SaveAsync();
             return model;
         }

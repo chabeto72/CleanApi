@@ -22,8 +22,9 @@ namespace Application.Database.User.Querys.GetUserById
 
         public async Task<GetAllUserModel> Execute(int userId)
         {
-            var entity = await _dataBaseService.User.FirstOrDefaultAsync(x => x.UserId == userId);
-            return _mapper.Map<GetAllUserModel>(entity);
+            //var entity = await _dataBaseService.User.FirstOrDefaultAsync(x => x.UserId == userId);
+            //return _mapper.Map<GetAllUserModel>(entity);
+            return null;
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿using Application.DataBase;
 using AutoMapper;
-using Domain.Entities.User;
+using Domain.Entities;
 using Microsoft.EntityFrameworkCore.Storage;
 using System;
 using System.Collections.Generic;
@@ -23,24 +23,24 @@ namespace Application.Database.User.Commands.CreateUser
         public async Task<CreateUserModel> Execute(CreateUserModel model)
         {
             var rolId = _dataBaseService.Rol.Where(x => x.Code == model.codigo_rol).FirstOrDefault();
-            
-            UserEntity? userEntity = _dataBaseService.User.Where(x => x.NumberDocument == model.Documento).FirstOrDefault();
-            if (userEntity == null) {
+
+            Domain.Entities.User? userEntity = _dataBaseService.User.Where(x => x.NumberDocument == model.Documento).FirstOrDefault();
+            if (userEntity == null)
+            {
                 userEntity = new();
                 userEntity.FirtsName = model.Nombre;
                 userEntity.Address = model.Direccion;
-                //userEntity.UserId = null;
                 userEntity.Active = true;
                 userEntity.RolUser = rolId?.RolID;
-                //userEntity.Rol = rolId;
                 userEntity.Email = model.Correo;
                 userEntity.NumberDocument = model.Documento;
                 userEntity.Password = "task123";
             }
-           
+
 
             //model.Password = "task123";
             //var entity = _mapper.Map<UserEntity>(model);
+
             await _dataBaseService.User.AddAsync(userEntity);
             await _dataBaseService.SaveAsync();
             return model;

@@ -1,4 +1,5 @@
-﻿using Application.DataBase;
+﻿using Application.Database.User.Querys.GetUserByCodeDocumentNumber;
+using Application.DataBase;
 using AutoMapper;
 using Azure.Core;
 using Microsoft.EntityFrameworkCore;
@@ -22,24 +23,8 @@ namespace Application.Database.User.Querys.GetAllUser
 
         public async Task<List<GetAllUserModel>> Execute()
         {
-            //var ListEntity = await _dataBaseService.User.Include(x => x.Rol).ToListAsync();
-            var ListEntity = await (from  user in _dataBaseService.User
-                                    join rol in _dataBaseService.Rol 
-                                    on user.RolUser equals rol.RolID into rolGroup
-                                    from rol in rolGroup.DefaultIfEmpty()
-                                    where user.Active == true
-                                    select new GetAllUserModel
-                                    {
-                                        Id = user.UserId,
-                                        Nombre = user.FirtsName,
-                                        Correo = user.Email,
-                                        Direccion = user.Address,
-                                        Codigo_rol = rol.Code,
-                                        Documento = user.NumberDocument,
-                                        Rol = rol.RolName
-                                    } ).ToListAsync();
-           
-            return ListEntity;
+            var ListEntity = await _dataBaseService.User.Include(x => x.RolUserNavigation).Where(x => x.Active == true).ToListAsync();
+            return _mapper.Map<List<GetAllUserModel>>(ListEntity);          
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿using Application.Database.User.Commands.CreateUser;
 using Application.DataBase;
 using AutoMapper;
-using Domain.Entities.User;
+using Domain.Entities;
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 using Moq;
@@ -36,10 +36,10 @@ namespace Test.Application.UserTest
         public async Task CreateEmployee_WhenFisrtNameHasInvalidFormatEmpty_ShoudlReturnValidationError()
         {
             //Arrange: Configuramos parametros de entrada de prueba unitaria
-            UserEntity user = new UserEntity() { FirtsName = null, LastName = "Bejarano", Code = "ADS", NumberDocument = null, Password = "" };
-            CreateUserModel createUserCommand = new CreateUserModel() { FirtsName = null, LastName = "Bejarano", Code = "ADS", NumberDocument = null, Password = "" };
-            _mapper.Setup(m => m.Map<UserEntity>(It.IsAny<CreateUserModel>())).Returns(user); // mapping data
-            var mockSet = new Mock<DbSet<UserEntity>>();
+            User user = new User() { FirtsName = null,  Email = "ADS", NumberDocument = null, Password = "" };
+            CreateUserModel createUserCommand = new CreateUserModel() { Nombre = null,  Correo = "ADS", Documento = null, Password = "" };
+            _mapper.Setup(m => m.Map<User>(It.IsAny<CreateUserModel>())).Returns(user); // mapping data
+            var mockSet = new Mock<DbSet<User>>();
             _dataBaseService.Setup(m => m.User).Returns(mockSet.Object);
 
             //Act: Se ejecuta el metodo a probar en nuestra prueba unitaria
