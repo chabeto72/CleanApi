@@ -49,6 +49,7 @@ namespace Application
             services.AddScoped<IValidator<(string, string)>, GetUserByCodeDocumentNumberValidator>();
             services.AddScoped<IValidator<CreateTaskModel>, CreateTaskValidator>();
             services.AddScoped<IValidator<UpdateTaskModel>, UpdateTaskValidator>();
+            services.AddScoped<IValidator<Guid>, DeleteTaskValidator>();
             #endregion
 
 

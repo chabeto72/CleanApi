@@ -8,7 +8,7 @@ namespace Application.Database.User.Commands.CreateUser
 {
     public class CreateTaskModel
     {
-        public int? Id { get; set; }
+        public string? Id { get; set; }
         public int Id_asignado { get; set; }
         //public string Nombre_asignado { get; set; }
         public string Nombre_tarea { get; set; }

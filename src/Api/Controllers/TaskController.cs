@@ -1,4 +1,5 @@
 ﻿using Application.Database.User.Commands.CreateUser;
+using Application.Database.User.Commands.DeleteUser;
 using Application.Database.User.Commands.UpdateUser;
 using Application.Database.User.Querys.GetAllTask;
 using Application.Database.User.Querys.GetAllUser;
@@ -59,6 +60,26 @@ namespace Api.Controllers
                 return StatusCode(StatusCodes.Status400BadRequest, ResponseApiService.Response(StatusCodes.Status400BadRequest, validation.Errors));
 
             var data = await updateTaskCommand.Execute(model);
+
+            return StatusCode(StatusCodes.Status200OK, ResponseApiService.Response(StatusCodes.Status200OK, data, "Ejecucion correcta"));
+        }
+        [HttpDelete("delete/{taskId}")]
+        public async Task<IActionResult> Delete(
+        [FromServices] IDeleteTaskCommand deleteTaskCommand,
+        [FromServices] IValidator<Guid> validator,
+        Guid taskId)
+        {
+            var validation = await validator.ValidateAsync(taskId);
+            if (!validation.IsValid)
+                return StatusCode(StatusCodes.Status400BadRequest, ResponseApiService.Response(StatusCodes.Status400BadRequest, validation.Errors));
+
+
+
+
+            var data = await deleteTaskCommand.Execute(taskId);
+            if (!data)
+                return StatusCode(StatusCodes.Status404NotFound, ResponseApiService.Response(StatusCodes.Status404NotFound));
+
 
             return StatusCode(StatusCodes.Status200OK, ResponseApiService.Response(StatusCodes.Status200OK, data, "Ejecucion correcta"));
         }
