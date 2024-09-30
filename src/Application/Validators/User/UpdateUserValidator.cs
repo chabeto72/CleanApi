@@ -8,10 +8,9 @@ namespace Application.Validators.User
     {
         public UpdateUserValidator()
         {
-            RuleFor(x => x.UserId).NotNull().GreaterThan(0);
-            RuleFor(x => x.FirtsName).NotNull().WithMessage("No puede ser nulo").NotEmpty().MaximumLength(30);
-            RuleFor(x => x.LastName).NotNull().WithMessage("No puede ser nulo").NotEmpty().MaximumLength(30);
-            RuleFor(x => x.Code).NotNull().WithMessage("No puede ser nulo").NotEmpty().MaximumLength(10);
+            RuleFor(x => x.Id).NotNull().GreaterThan(0);
+            RuleFor(x => x.Nombre).NotNull().WithMessage("No puede ser nulo").NotEmpty().MaximumLength(30);
+           
         }
     }
 }

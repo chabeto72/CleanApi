@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "F/1ri+0TNFU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ariel\\source\\repos\\chabeto72\\CleanApi\\src\\Common\\Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ariel\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -24,8 +24,17 @@ namespace Application.Database.User.Commands.UpdateUser
 
         public async Task<UpdateUserModel> Execute (UpdateUserModel model)
         {
-            var entity = _mapper.Map<UserEntity>(model);
-             _dataBaseService.User.Update(entity);
+            //var entity = _mapper.Map<UserEntity>(model);
+            UserEntity? userEntity = _dataBaseService.User.Where(x => x.UserId == model.Id).FirstOrDefault();
+            userEntity.FirtsName = model.Nombre;
+            userEntity.Address = model.Direccion;
+            userEntity.UserId = model.Id;
+            userEntity.Email = model.Correo;
+            userEntity.NumberDocument = model.Documento;
+
+            var rolId = _dataBaseService.Rol.Where(x => x.Code == model.codigo_rol).Select(x => x.RolID).FirstOrDefault();
+            userEntity.RolUser = rolId;
+            _dataBaseService.User.Update(userEntity);
             await _dataBaseService.SaveAsync();
             return model;
         }

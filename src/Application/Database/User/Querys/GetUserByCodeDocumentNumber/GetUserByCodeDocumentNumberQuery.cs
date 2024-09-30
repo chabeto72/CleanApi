@@ -20,9 +20,9 @@ namespace Application.Database.User.Querys.GetUserByCodeDocumentNumber
             _mapper = mapper;
         }
 
-        public async Task<GetUserByCodeDocumentNumberModel> Execute(string code,string documentNumber)
+        public async Task<GetUserByCodeDocumentNumberModel> Execute(string password,string documentNumber)
         {
-            var entity = await _dataBaseService.User.FirstOrDefaultAsync(x => x.Code == code && x.NumberDocument == documentNumber);
+            var entity = await _dataBaseService.User.FirstOrDefaultAsync(x => x.Password == password && x.NumberDocument == documentNumber);
             return _mapper.Map<GetUserByCodeDocumentNumberModel>(entity);
         }
     }

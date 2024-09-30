@@ -107,18 +107,18 @@ namespace Api.Controllers
         }
 
         [AllowAnonymous]
-        [HttpGet("get-by-code-docummentnumber/{userCode}/{userDocumentNumber}")]
-        public async Task<IActionResult> GetByCodeDocumentNumber(
+        [HttpGet("get-login-password-docummentnumber/{password}/{userDocumentNumber}")]
+        public async Task<IActionResult> GetLoginPasswordDocumentNumber(
          [FromServices] IGetUserByCodeDocumentNumberQuery getUserByCodeDocumentNumberQuery,
          [FromServices] IValidator<(string,string)> validator,
-         [FromServices] IGetTokenJwtService getTokenJwtService, string userCode, string userDocumentNumber)
+         [FromServices] IGetTokenJwtService getTokenJwtService, string password, string userDocumentNumber)
         {
-            var validation = await validator.ValidateAsync((userCode, userDocumentNumber));
+            var validation = await validator.ValidateAsync((password, userDocumentNumber));
             if (!validation.IsValid)
                 return StatusCode(StatusCodes.Status400BadRequest, ResponseApiService.Response(StatusCodes.Status400BadRequest, validation.Errors));
 
 
-            var data = await getUserByCodeDocumentNumberQuery.Execute(userCode, userDocumentNumber);
+            var data = await getUserByCodeDocumentNumberQuery.Execute(password, userDocumentNumber);
             if (data == null)
                 return StatusCode(StatusCodes.Status404NotFound, ResponseApiService.Response(StatusCodes.Status404NotFound));
 

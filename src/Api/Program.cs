@@ -14,19 +14,19 @@ var builder = WebApplication.CreateBuilder(args);
 
 
 var keyVaultUrl = builder.Configuration["keyVaultUrl"]?? string.Empty;
-if (Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") == "local")
-{
-    string tenantId = Environment.GetEnvironmentVariable("tenantId") ??string.Empty;
-    string clientId = Environment.GetEnvironmentVariable("clientId") ?? string.Empty;
-    string clientSecret = Environment.GetEnvironmentVariable("clientSecret") ?? string.Empty;
+//if (Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") == "local")
+//{
+//    string tenantId = Environment.GetEnvironmentVariable("tenantId") ??string.Empty;
+//    string clientId = Environment.GetEnvironmentVariable("clientId") ?? string.Empty;
+//    string clientSecret = Environment.GetEnvironmentVariable("clientSecret") ?? string.Empty;
 
-    var tokenCredentials = new ClientSecretCredential(tenantId, clientId, clientSecret);
-    builder.Configuration.AddAzureKeyVault(new Uri(keyVaultUrl), tokenCredentials);
-}
-else
-{
-    builder.Configuration.AddAzureKeyVault(new Uri(keyVaultUrl), new DefaultAzureCredential());
-}
+//    var tokenCredentials = new ClientSecretCredential(tenantId, clientId, clientSecret);
+//    builder.Configuration.AddAzureKeyVault(new Uri(keyVaultUrl), tokenCredentials);
+//}
+//else
+//{
+//    builder.Configuration.AddAzureKeyVault(new Uri(keyVaultUrl), new DefaultAzureCredential());
+//}
 
 builder.Services.addWebApi()
     .addCommon()

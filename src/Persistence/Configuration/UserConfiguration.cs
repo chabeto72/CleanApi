@@ -14,10 +14,15 @@ namespace Persistence.Configuration
         {
             entityTypeBuilder.HasKey(x => x.UserId);
             entityTypeBuilder.Property(x => x.FirtsName).IsRequired();
-            entityTypeBuilder.Property(x => x.LastName).IsRequired();
+            //entityTypeBuilder.Property(x => x.RolId);
+            entityTypeBuilder.Property(x => x.Email);
             entityTypeBuilder.Property(x => x.NumberDocument).IsRequired();
-            entityTypeBuilder.Property(x => x.Password).IsRequired();
-            entityTypeBuilder.Property(x => x.Code).IsRequired();
+            entityTypeBuilder.Property(x => x.Password);
+            entityTypeBuilder.Property(x => x.Active);
+            entityTypeBuilder.Property(x => x.Address);
+
+            entityTypeBuilder.HasMany(x => x.Tasks).WithOne(x => x.User).HasForeignKey(x => x.UserTask);
+            entityTypeBuilder.HasOne(x => x.Rol).WithMany(x => x.Users).HasForeignKey(x => x.RolUser).HasPrincipalKey(x => x.RolID);
         }
     }
 }

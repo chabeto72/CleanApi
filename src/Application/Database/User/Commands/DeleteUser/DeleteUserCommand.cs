@@ -1,4 +1,5 @@
 ﻿using Application.DataBase;
+using Domain.Entities.User;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -18,10 +19,13 @@ namespace Application.Database.User.Commands.DeleteUser
         public async Task<bool> Execute(int idUser)
         {
             var entity = await _databaseService.User.FirstOrDefaultAsync(x => x.UserId == idUser);
-            if (entity == null) 
+            if (entity == null)
                 return false;
 
-            _databaseService.User.Remove(entity);
+            entity.Active = false;
+
+            _databaseService.User.Update(entity);
+            //_databaseService.User.Remove(entity);
             return await _databaseService.SaveAsync();
         }
     }

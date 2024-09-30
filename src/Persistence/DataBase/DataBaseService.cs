@@ -1,5 +1,7 @@
 ﻿
 using Application.DataBase;
+using Domain.Entities.Rol;
+using Domain.Entities.Task;
 using Domain.Entities.User;
 using Microsoft.EntityFrameworkCore;
 using Persistence.Configuration;
@@ -19,6 +21,8 @@ namespace Persistence.DataBase
         }
 
         public DbSet<UserEntity> User { get; set; }
+        public DbSet<TaskEntity> Task { get; set; }
+        public DbSet<RolEntity> Rol { get; set; }
 
         public async Task<bool> SaveAsync()
         {
@@ -34,6 +38,8 @@ namespace Persistence.DataBase
         private void EntityConfiguration(ModelBuilder modelBuilder)
         {
             new UserConfiguration(modelBuilder.Entity<UserEntity>());
+            new TaskConfiguration(modelBuilder.Entity<TaskEntity>());
+            new RolConfiguration(modelBuilder.Entity<RolEntity>());
         }
     }
 }
