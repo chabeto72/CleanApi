@@ -1,2 +1,8 @@
 .vs/CleanApi/FileContentIndex/9366ac8e-f752-49f1-a006-f6d7112a8dfb.vsidx
 .vs/BaseCleanApi/FileContentIndex/a411193f-7f33-4949-9176-4e4e9f1a3535.vsidx
+src/Api/bin/
+src/Api/obj/
+src/Application/bin/
+src/Persistence/bin/Debug/net8.0/Application.dll
+src/Persistence/obj/
+src/External/obj/
