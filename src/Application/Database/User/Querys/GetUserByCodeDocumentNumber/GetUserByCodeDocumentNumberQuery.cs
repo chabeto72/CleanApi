@@ -22,7 +22,7 @@ namespace Application.Database.User.Querys.GetUserByCodeDocumentNumber
 
         public async Task<GetUserByCodeDocumentNumberModel> Execute(string password,string documentNumber)
         {
-            var entity = await _dataBaseService.User.FirstOrDefaultAsync(x => x.Password == password && x.NumberDocument == documentNumber);
+            var entity = await _dataBaseService.User.Include(x => x.RolUserNavigation).FirstOrDefaultAsync(x => x.Password == password && x.NumberDocument == documentNumber);
             return _mapper.Map<GetUserByCodeDocumentNumberModel>(entity);
             
         }
