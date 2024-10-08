@@ -33,7 +33,7 @@ namespace Test.Application.UserTest
         //El escenario
         //Lo que debe arrojar
         [Fact]
-        public async Task CreateEmployee_WhenFisrtNameHasInvalidFormatEmpty_ShoudlReturnValidationError()
+        public async Task CreateUser_WhenFisrtNameHasInvalidFormatEmpty_ShoudlReturnValidationError()
         {
             //Arrange: Configuramos parametros de entrada de prueba unitaria
             User user = new User() { FirtsName = null,  Email = "ADS", NumberDocument = null, Password = "" };
@@ -47,9 +47,7 @@ namespace Test.Application.UserTest
 
             ////Assert: Se verifica los datos de retorno de nuestro metodo probado
             Assert.True(createUserCommand.Equals(result));
-            //result.FirstError.Type.Should().Be(ErrorType.Validation);
-            //result.FirstError.Code.Should().Be(Domain.EmployeeErrors.Errors.Employee.PhoneNumberInvalid.Code);
-            //result.FirstError.Description.Should().Be(Domain.EmployeeErrors.Errors.Employee.PhoneNumberInvalid.Description);
+
 
         }
     }

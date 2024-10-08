@@ -12,6 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Transactions;
 
 namespace Persistence.DataBase
 {
@@ -37,7 +38,13 @@ namespace Persistence.DataBase
 
         public async Task<bool> SaveAsync()
         {
-            return await SaveChangesAsync() > 0;
+            using (var transaction = new TransactionScope())
+            {
+                var result =  await SaveChangesAsync() > 0;
+                transaction.Complete();
+                return result;
+            }
+                
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

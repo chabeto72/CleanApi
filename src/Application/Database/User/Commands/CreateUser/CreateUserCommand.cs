@@ -37,10 +37,6 @@ namespace Application.Database.User.Commands.CreateUser
                 userEntity.Password = "task123";
             }
 
-
-            //model.Password = "task123";
-            //var entity = _mapper.Map<UserEntity>(model);
-
             await _dataBaseService.User.AddAsync(userEntity);
             await _dataBaseService.SaveAsync();
             return model;
